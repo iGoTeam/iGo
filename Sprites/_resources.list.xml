@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sPlayerRight" type="RESOURCE"/>
+  <resource name="sPlayerRightWalk" type="RESOURCE"/>
+  <resource name="sPlayerStreamRight" type="RESOURCE"/>
+  <resource name="sPlayerStreamLeft" type="RESOURCE"/>
+  <resource name="sPlayerLeft" type="RESOURCE"/>
+  <resource name="sPlayerLeftWalk" type="RESOURCE"/>
+  <resource name="sPlatform" type="RESOURCE"/>
+  <resource name="sStreamRight" type="RESOURCE"/>
+  <resource name="sStreamLeft" type="RESOURCE"/>
+  <resource name="sPlatformendleft" type="RESOURCE"/>
+  <resource name="sPlatformHouse" type="RESOURCE"/>
+  <resource name="sGapfiller" type="RESOURCE"/>
+  <resource name="sWallHouse" type="RESOURCE"/>
+  <resource name="background wall" type="RESOURCE"/>
+  <resource name="bathroom wall" type="RESOURCE"/>
+  <resource name="bathroom tub" type="RESOURCE"/>
+  <resource name="sbathroomsink" type="RESOURCE"/>
+  <resource name="background wall3" type="RESOURCE"/>
+  <resource name="background wall2" type="RESOURCE"/>
+  <resource name="bed" type="RESOURCE"/>
+  <resource name="couch" type="RESOURCE"/>
+  <resource name="stairsRight" type="RESOURCE"/>
+  <resource name="sToilet" type="RESOURCE"/>
+  <resource name="sPlayerRightRun" type="RESOURCE"/>
+  <resource name="sPlayerLeftRun" type="RESOURCE"/>
+  <resource name="sPlant" type="RESOURCE"/>
+  <resource name="MenuOptions" type="GROUP"/>
+  <resource name="sPeeBlock" type="RESOURCE"/>
+  <resource name="sPeeCursor" type="RESOURCE"/>
+  <resource name="sToiletBowl" type="RESOURCE"/>
+  <resource name="spr_continue" type="RESOURCE"/>
+  <resource name="sprite35" type="RESOURCE"/>
+  <resource name="stairsLeft" type="RESOURCE"/>
+</resources>

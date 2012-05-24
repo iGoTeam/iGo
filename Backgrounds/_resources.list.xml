@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="background0" type="RESOURCE"/>
+  <resource name="background1" type="RESOURCE"/>
+  <resource name="MenuBackground" type="RESOURCE"/>
+  <resource name="ToiletBackground" type="RESOURCE"/>
+  <resource name="ToiletBackground2" type="RESOURCE"/>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="723" library="1">
+      <!--action name: Draw_Health-->
+      <kind>NORMAL</kind>
+      <allowRelative>true</allowRelative>
+      <question>false</question>
+      <canApplyTo>false</canApplyTo>
+      <actionType>FUNCTION</actionType>
+      <functionName>action_draw_health</functionName>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="EXPRESSION">view_xview</argument>
+        <argument kind="EXPRESSION">view_yview</argument>
+        <argument kind="EXPRESSION">view_xview+100</argument>
+        <argument kind="EXPRESSION">view_yview+10</argument>
+        <argument kind="MENU">11</argument>
+        <argument kind="MENU">14</argument>
+      </arguments>
+    </action>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">draw_set_color(c_white);
+draw_text(view_xview, view_yview+10, "Pee Meter");
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

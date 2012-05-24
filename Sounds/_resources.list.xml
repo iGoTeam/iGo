@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="sound_Jump" type="RESOURCE"/>
+  <resource name="sound_PeeBowl" type="RESOURCE"/>
+  <resource name="sound_PeeObject" type="RESOURCE"/>
+  <resource name="sound_win" type="RESOURCE"/>
+  <resource name="sound_Flush" type="RESOURCE"/>
+  <resource name="snd_type" type="RESOURCE"/>
+</resources>

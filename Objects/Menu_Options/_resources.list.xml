@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oMenuKeys" type="RESOURCE"/>
+  <resource name="oTitle" type="RESOURCE"/>
+  <resource name="oControls" type="RESOURCE"/>
+</resources>

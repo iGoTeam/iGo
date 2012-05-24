@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource name="oPlayer" type="RESOURCE"/>
+  <resource name="oPlatform" type="RESOURCE"/>
+  <resource name="oCouch" type="RESOURCE"/>
+  <resource name="oPlatformendleft" type="RESOURCE"/>
+  <resource name="oStreamRight" type="RESOURCE"/>
+  <resource name="oPlatformHouse" type="RESOURCE"/>
+  <resource name="oWallHouse" type="RESOURCE"/>
+  <resource name="oHousebackwall" type="RESOURCE"/>
+  <resource name="oHousebackwall2" type="RESOURCE"/>
+  <resource name="oHousebackwall3" type="RESOURCE"/>
+  <resource name="bed" type="RESOURCE"/>
+  <resource name="gapfiller" type="RESOURCE"/>
+  <resource name="oStairs" type="RESOURCE"/>
+  <resource name="oStairsLeft" type="RESOURCE"/>
+  <resource name="bathroom" type="RESOURCE"/>
+  <resource name="oBathtub" type="RESOURCE"/>
+  <resource name="oBathsink" type="RESOURCE"/>
+  <resource name="oToilet" type="RESOURCE"/>
+  <resource name="oToilet2" type="RESOURCE"/>
+  <resource name="oAppearingBlock" type="RESOURCE"/>
+  <resource name="oAppearingBloock2" type="RESOURCE"/>
+  <resource name="oPlant" type="RESOURCE"/>
+  <resource name="oPeeCursor" type="RESOURCE"/>
+  <resource name="oPeeMeter" type="RESOURCE"/>
+  <resource name="oGirlfriendMeter" type="RESOURCE"/>
+  <resource filename="Menu_Options" name="Menu/Options" type="GROUP"/>
+  <resource name="oPeeBlock" type="RESOURCE"/>
+  <resource name="oMeters" type="RESOURCE"/>
+  <resource name="oToiletBowl" type="RESOURCE"/>
+  <resource name="oToiletMeter" type="RESOURCE"/>
+</resources>

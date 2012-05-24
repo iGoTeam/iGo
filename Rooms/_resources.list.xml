@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+  <resource filename="Menu_Options" name="Menu/Options" type="GROUP"/>
+  <resource name="Level 1" type="GROUP"/>
+  <resource name="Level2" type="GROUP"/>
+</resources>

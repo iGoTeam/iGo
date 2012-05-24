@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">
+if(image_index == 0)
+{
+    if(keyboard_check_pressed(vk_down))
+    {
+        image_index = 1;
+    }
+    if(keyboard_check_pressed(vk_enter))
+        room_goto(room0);
+}
+
+if(image_index == 1)
+{
+   if(keyboard_check_pressed(vk_up))
+   {
+        image_index = 0;
+   }
+   if(keyboard_check_pressed(vk_down))
+   {
+        image_index = 2;
+   }
+   if(keyboard_check_pressed(vk_enter))
+        room_goto(Controls);
+}
+
+if(image_index == 2)
+{
+   if(keyboard_check_pressed(vk_up))
+   {
+        image_index = 1;
+   }
+   if(keyboard_check_pressed(vk_enter))
+        game_end();
+}
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

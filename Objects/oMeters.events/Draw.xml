@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="DRAW" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">// Draw Pee Meter
+scrDrawHealthBar(view_xview, view_yview, view_xview + 100,
+     view_yview + 10, peeMeter, c_black, c_orange, c_red, 0,true, true);
+// Draw Pee Meter label
+draw_set_color(c_white);
+draw_text(view_xview, view_yview + 10, "Pee Meter");
+
+// Draw GF Meter
+scrDrawHealthBar(view_xview + 120, view_yview, view_xview + 120 +100, 
+    view_yview + 10, gfMeter, c_black, c_fuchsia, c_red, 0,true, true);
+// Draw GF Meter label
+draw_set_color(c_white);
+draw_text(view_xview + 120, view_yview + 10, "GF Meter");
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<event category="STEP" id="0">
+  <actions>
+    <action id="603" library="1">
+      <!--action name: Code-->
+      <kind>CODE</kind>
+      <allowRelative>false</allowRelative>
+      <question>false</question>
+      <canApplyTo>true</canApplyTo>
+      <actionType>CODE</actionType>
+      <functionName/>
+      <relative>false</relative>
+      <not>false</not>
+      <appliesTo>.self</appliesTo>
+      <arguments>
+        <argument kind="STRING">//Increases Pee meter constantly unless spacebar is pressed
+if(keyboard_check(vk_space))
+{
+     peeMeter -= 1;
+}
+else
+{
+    peeMeter += .1;
+}   
+if(peeMeter &gt; 99 || gfMeter &gt; 99)
+{
+    if(gfMeter &gt; 99)
+    {
+        peeMeter = 25;
+        gfMeter = 1;
+    
+        if(keyboard_check(vk_space))
+        {
+            sleep(1000);
+        }
+        msg = show_message("YOU WOKE UP YOUR GIRLFRIEND!");
+        
+        //sleep(2000);
+        //if player presses the button
+        if(msg &gt;= 0)
+        {
+            // then restart game
+            room_restart();
+        }
+        
+    }
+    
+    else if (peeMeter &gt; 99)
+    {
+        peeMeter = 25;
+        gfMeter = 1;
+    
+        if(keyboard_check(vk_space))
+        {
+            sleep(1000);
+        }
+        msg = show_message("YOU PISSED YOUR PANTS! :(");
+        
+        //if player presses the button
+        if(msg &gt;= 0)
+        {
+            // then restart game
+            room_restart();
+        }
+    }
+    
+}
+
+</argument>
+      </arguments>
+    </action>
+  </actions>
+</event>
